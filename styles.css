@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+.main-container {
+	background-color: black;
+	width: 420px;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+}
+
+/*styling row 1*/
+.screen {
+	height: 80px;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+/*styling rows 2,3,4,5*/
+.middle-containers {
+	height: 100px;
+	justify-content: space-between;
+}
+
+.calc-button {
+	width: 25%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 40px;
+	border: 1px solid black;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.button-c {
+	width: 50%;
+}
+
+/*styling the last row*/
+ .container-6 {
+ 	height: 120px;
+ 	justify-content: space-between;
+ }
+
+ .button-o {
+ 	width: 75%;
+ }
+
+/*styling the buttons with math symbols*/
+
+.calc-button:last-child {
+	background-color: #CC6600;
+}
+
+/*hovering behavior
+*/
+
+.calc-button:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
